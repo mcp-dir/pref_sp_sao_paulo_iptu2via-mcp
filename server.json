@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_sp_sao_paulo_iptu2via-mcp",
+  "title": "Prefeitura SP São Paulo: Segunda via Simplificada de IPTU",
+  "description": "Prefeitura SP São Paulo: Segunda via Simplificada de IPTU, official-source lookup. Platform-hosted, ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_sp_sao_paulo_iptu2via-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_sp_sao_paulo_iptu2via"
+    }
+  ]
+}
